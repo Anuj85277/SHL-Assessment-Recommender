@@ -1,0 +1,6 @@
+env/
+__pycache__/
+*.pyc
+.env
+chroma_db/
+shl-api/
