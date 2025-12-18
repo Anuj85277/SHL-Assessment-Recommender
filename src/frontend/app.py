@@ -7,6 +7,7 @@ st.title("🔍 SHL Assessment Recommender")
 st.markdown("Enter a job role or required skills to find the most relevant SHL tests.")
 
 # Configuration -  Using your LIVE Render URL
+# In src/frontend/app.py
 API_URL = "https://shl-assessment-recommender-4x8l.onrender.com/recommend"
 
 query = st.text_input("Job Role / Skills:", placeholder="e.g. Java Developer, Leadership...")
